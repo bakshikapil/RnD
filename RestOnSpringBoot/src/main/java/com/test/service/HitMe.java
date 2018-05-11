@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class HitMe {
 
-	@RequestMapping("/")
+	@RequestMapping("/hit-me")
 	public String test(){
 		return "tested and verified!!!";
 	}
